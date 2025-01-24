@@ -1,0 +1,82 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); */
+
+body{
+    font-family:  serif;
+}
+.darkclass{
+    background-color: black !important
+}
+.img-items{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important
+}
+.img-items .overlay{
+    padding: 50px 0px 200px 0px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.content{
+    padding: 70px 0px;
+}
+.content h1{
+    margin: 30px 0px;
+    font-size: 42px;
+}
+.my-btn{
+    background-color: #fff;
+    padding: 8px 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.services{
+    margin-top: -140px;
+}
+.-card{
+    padding: 70px 10px 20px 10px;
+    background: #fefefe;
+    box-shadow: 0 0 5px silver;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.-card .icon{
+    background: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 10px;
+}
+.-card .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+}
+.margin{
+    margin: 50px;
+}
+.service .-card i{
+    font-size: 40px;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+.-card:hover{
+    background-color: black;
+    color: white;
+
+}
+.my-icon{
+    padding: -30px ;
+}
+.footer{
+    background: black;
+     color: #fff;
+      padding-top: 20px;
+}
